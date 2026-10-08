@@ -1,0 +1,3 @@
+pytorch_ignite
+
+Ignite has 14,062 commits from 594 authors 2017-11 to 2026-04 and no month with zero commits, so there is no inactivity gap. Its trajectory is rising to steadier trends, with large contributor switch. The month with the lowest commits is 2025-08, with 2 commits, and was used only to split commits for Part 3. Before that month the work was Python 3.13 testing then typing/style workflows, MPS and codecov fixes, and dependabot updates. Recent commits are PR merge commits and docs changes from many outside contributors, and the project is Active. 

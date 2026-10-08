@@ -1,0 +1,3 @@
+pmelchior_scarlet
+
+Scarlet has 1623 commits from 28 authors from 2017-05 to 2024-08 and 3 different gaps of 3+ months. Longest gap was 2023-08 to 2024-03 (8 months). Before the gap, commits were contributed by an outsider to do the display functions and a fix by Arun Kannawadi, so the maintainer isnt active visibily. After it, Peter Melchior cleared backlog issues ("closes #254", "#271", and "#282"). Also he fixed docs and refactored the code. Activity then got less frequent with docs and build tweaks and a final PR, and the project is inactive. An 8 month gap with only outide contributor work before it. The maintainer returned to close issues and fix docs. Activity then faded after 2024-08.

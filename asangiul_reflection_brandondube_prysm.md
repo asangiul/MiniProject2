@@ -1,2 +1,3 @@
 brandondube_prysm
 
+Prysm has 1768 commits from 26 authors from 2018-02 to 2026-04 mostly by one maintainer and 2 different gaps of over 3 months. Longest gap runs 2025-07 to 2026-01. Before it commits were new polynomial modules, docstrings and release 0.22 notes and an outside PR for numpy. The commit messegaes never explain the pause so this gap was hard to interpret. The maintainer stepping back after a release is the most likely reason. Activiity resumed with docs and CirclCI build repairs and polynomial modes gave a new contributor, Jaren, added DFTPropagtor drafts.

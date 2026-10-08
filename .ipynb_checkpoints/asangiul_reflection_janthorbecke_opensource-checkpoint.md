@@ -1,0 +1,3 @@
+dbs-leipzig_gradoop
+
+Gradoop has 5,913 commits from 117 authors 2014-11 to 2025-11 and no gap of 3+ months. The longest zero-commit stretch is one month (2020-11).The pattern is steady heavily updated. Many commits are automated like 'Updated Site via Maven' from a Jenkins account, and dependabot bumps, and finally ten identical 'deploy:' commits by galpha as the most recent activity. Because of that, recent commit counts overstate human activity. No gap interpretation was needed, so HypothesizedGapReason is 'N/A active Project'. 

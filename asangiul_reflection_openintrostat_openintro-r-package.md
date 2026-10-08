@@ -1,0 +1,3 @@
+openintrostat_openintro-r-package
+
+The openintro package has 792 commits from 37 authors 2014-07 to 2025-08 and 10 gaps meaning the activity is bursty and irregular. The longest gap is 2016-02 to 2017-07 (18 months). Before it, outside PRs and new datasets then after it, David Diez added textbook datasets and prepared a CRAN relese ('R CMD check' fixes, 'Final updates before posting to CRAN'). The reason for the pause is not stated.  The restart looks driven by a CRAN submission goal. Recent commits are data fixes and typos, and the project is Active (last commit 2025-08-01).

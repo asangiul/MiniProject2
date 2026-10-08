@@ -1,0 +1,3 @@
+tlverse_hal9001
+
+Hal9001 has 724 commits from 22 authors 2017-08 to 2024-11 and 3 gaps of 3+ months. The longest gap is only 4 months (2018-06 to 2018-09) so it is a short pause rather than abandonment. It follows a 'bump version + update pkgdown site' commit, so a post release or a summer pause is likely, but the evidence is weak. After the same core maintainers returned with a new contributor's feature PR (#35) and docs cleanup. THen later contributors (Lars van der Laan, Sky Qiu, Rachael Phillips) joined. 

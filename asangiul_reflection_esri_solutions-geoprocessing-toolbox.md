@@ -1,0 +1,3 @@
+esri_solutions-geoprocessing-toolbox
+
+This repo has 1,362 commits from 35 authors 2013-07 to 2024-08 and 2 gaps of over 3 months. The longest gap is 56 months 2019-12 to 2024-07. Before that, Lyle's symbology and toolbox updates were merged as PRs #683-685. After that there is a single commit, 'Update README.md' by Chris Moore on 2024-08-28. The gap is easy to describe but its cause is not in the commit messages, so the README was checked that stated that the project is no longer in service. The project is Inactive.

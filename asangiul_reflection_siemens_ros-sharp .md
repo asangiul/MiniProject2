@@ -1,0 +1,3 @@
+siemens_ros-sharp 
+
+ROS-Sharp has 969 commits from 92 authors 2017-09 to 2025-11 and 3 gaps of 3+ months. The longest gap is 2022-07 to 2023-12 (18 months). Prior to that, commits were packaging for openupm and 4 dependabot Newtonsoft.Json bumps. This is a sign that automated updates arrived with little human follow-up. After, Mehmet Cakal migrated the JSON libraries and updated dependencies, later ROS2 contributors joined. GitHub issues and PRs numbered #434-#450 fall during the gap. The project is Active (last commit 2025-11-02). 
