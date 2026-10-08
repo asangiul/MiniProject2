@@ -1,0 +1,577 @@
+pre/post;prj;commit;author;time;message
+pre;brandondube_prysm;a1afc11c9c78bd08505a9f56538f5ed89ce59efb;Brandon Dube <brandon@retrorefractions.com>;1735839795;"polynomials/xy: rename j_to_mn to xy_j_to_mn
+
+less ambiguous in the (large) polynomials namespace
+"
+pre;brandondube_prysm;2b4e3ad975ee5719b81537b2993a0c12c89bbf8a;Brandon Dube <brandon@retrorefractions.com>;1735839809;"polynomials: +laguerre module
+"
+pre;brandondube_prysm;18313b30ef569a144d963c0fc2a25bd91b02ea76;Brandon Dube <brandon@retrorefractions.com>;1735839880;"polynomials/zernike.barplot: convert coefs to array for users
+
+rare for user to provide a list instead of array, but code should not
+break in that situation anyway
+"
+pre;brandondube_prysm;7103e76f80b7f00853bfa8964147d11f20a951f1;Brandon Dube <brandon@retrorefractions.com>;1735839895;"polynomials: update __init__ for changes
+"
+pre;brandondube_prysm;26e9be824750f7137f5dd1b20c62a85e34e53d78;Brandon Dube <brandon@retrorefractions.com>;1735840198;"docs/releases: add release dates
+"
+pre;brandondube_prysm;7eb62f76d327297e7ae66a6540699f582fbb3fa7;Brandon Dube <brandon@retrorefractions.com>;1735840216;"docs/releases/0.22: polish release notes
+"
+pre;brandondube_prysm;bf7754d1ec9c66b0f88dbe3149e3c7a764402bfc;Brandon Dube <brandon@retrorefractions.com>;1735840497;"docs: fix some toctrees, copyright
+"
+pre;brandondube_prysm;d45826f11dc173786bb621d90904bc020caf3102;Brandon Dube <brandon@retrorefractions.com>;1735840672;"polynomials/laguerre: add missing docstrings
+"
+pre;brandondube_prysm;94f4c83140e7c65b8a4a9baee28bf126de93f3da;AronsteiDL <AronsteiDL@corning.com>;1749681006;"2025-06-11 D. Aronstein - updated pyproject.toml to accept any NumPy 1.x or 2.x, and explicitly lists the dependencies on h5py and scipy.
+"
+pre;brandondube_prysm;9a4984b444c46c1d082d457561520b6dad6acd89;ListNoncomprehension <github@tofujunkie.org>;1749925248;"Merge 94f4c83140e7c65b8a4a9baee28bf126de93f3da into d45826f11dc173786bb621d90904bc020caf3102
+"
+post;brandondube_prysm;1c723452a3d6829fae3bf9556a700dcad80148a2;Brandon Dube <brandon@retrorefractions.com>;1771259958;"rtd: bump python version, add sphinx config path
+"
+post;brandondube_prysm;f6f0ba5039cf88df68b2224bbf6ecdbba3b78dcb;Brandon Dube <brandon@retrorefractions.com>;1771261819;"docs: avoid full polarization module toctree splatting onto main page
+"
+post;brandondube_prysm;f43b63ecc327f9173cb80a7c25643c8fa39d0ef9;Brandon Dube <brandon@retrorefractions.com>;1771264858;"polynomials: (re?)introduce normalize modes and orthogonalize modes
+"
+post;brandondube_prysm;ab4c845035fa99e8c9e7109f0fe0f85c8169ca45;Brandon Dube <brandon@retrorefractions.com>;1771265396;"propagation: add several docstrings, focus_backprop, unfocus_backprop
+coordinates, psi: add docstrings
+"
+post;brandondube_prysm;a0da959e04fb5e1cb915cee6b2f57921476b77dd;circleci-app[bot] <127350680+circleci-app[bot]@users.noreply.github.com>;1771267096;"feat: apply code changes
+
+This commit introduces code changes or enhancements. Please see the diff for a complete list of modifications."
+post;brandondube_prysm;b5d85f9e9a049e57faf3e44326c6018a6496a1a0;Brandon Dube <brandon@retrorefractions.com>;1771267587;"docs/release0.22: update intro texxt
+"
+post;brandondube_prysm;ed2025d442849d358938fb17fa92f42b0584e40d;Brandon Dube <brandon@retrorefractions.com>;1771267593;"circleci: update config
+"
+post;brandondube_prysm;6cb91e2f2802ef3f170d78c7d47b3c2806a60447;Brandon Dube <brandon@retrorefractions.com>;1771267910;"circleci: update deps
+"
+post;brandondube_prysm;79600bad88b98f788d9809944731bc8b89334aab;Brandon Dube <brandon@retrorefractions.com>;1771268078;"pyproject: change how dependencies are specified
+"
+post;brandondube_prysm;58b2e70c14acf93e905dc55e6600e4e9b2710d54;Brandon Dube <brandon@retrorefractions.com>;1771286016;"circleci: increase VM size
+"
+pre;dbs-leipzig_gradoop;3710e6220c57803e948cb4ee9c3c4768e3b8c76f;Tomcat <dbjenkins@wdiserv2.informatik.uni-leipzig.de>;1596925880;"Updated Site via Maven
+"
+pre;dbs-leipzig_gradoop;24b48327d731905c9d618a4f6184c93060226845;lc0197 <christlukas38@googlemail.com>;1597226878;"API, minor changes
+"
+pre;dbs-leipzig_gradoop;ecea38498673e555f8c45da881d0a39114d494ad;lc0197 <christlukas38@googlemail.com>;1597866585;"[#1482] made embeddings light-weight
+"
+pre;dbs-leipzig_gradoop;8c5ac0491a3b2700bc6dc9133b4d75f88d089dea;lc0197 <christlukas38@googlemail.com>;1597943782;"[#1482] implemented edge-vertex overlap
+"
+pre;dbs-leipzig_gradoop;e62fec64f44c75f967e5564524eacb7009ad7807;Tomcat <dbjenkins@wdiserv2.informatik.uni-leipzig.de>;1598135402;"Updated Site via Maven
+"
+pre;dbs-leipzig_gradoop;1318a7c973752eb54d920c27d0e0588e5c554415;lc0197 <christlukas38@googlemail.com>;1601256418;"cleaned up
+"
+pre;dbs-leipzig_gradoop;726fa535b9cfaa8cbc18212ad31d2ba4525e345d;lc0197 <christlukas38@googlemail.com>;1601276968;"fixed checkstyle & spotbugs
+"
+pre;dbs-leipzig_gradoop;29d6f6a40bb17946d79b2ea57a97eaa3cffe16ae;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1602571329;"Bump junit from 4.12 to 4.13.1
+
+Bumps [junit](https://github.com/junit-team/junit4) from 4.12 to 4.13.1.
+- [Release notes](https://github.com/junit-team/junit4/releases)
+- [Changelog](https://github.com/junit-team/junit4/blob/main/doc/ReleaseNotes4.12.md)
+- [Commits](https://github.com/junit-team/junit4/compare/r4.12...r4.13.1)
+
+Signed-off-by: dependabot[bot] <support@github.com>"
+pre;dbs-leipzig_gradoop;61be496a3a1ebeedcea3820d8f83c29f68bc124b;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1602665985;"Bump junit from 4.12 to 4.13.1 (#1497)
+
+fixes the security vulnerability of junit 4.12"
+pre;dbs-leipzig_gradoop;a41873e7e87ec40dfd6c44148b9f1e8c6596b99f;Kevin Gómez <k.gomez@freenet.de>;1602666157;Merge branch 'develop' into 1485_flink_upgrade
+post;dbs-leipzig_gradoop;385efdc5462e97b47aa2b998f5b4d7d708afd1f7;Tomcat <dbjenkins@wdiserv2.informatik.uni-leipzig.de>;1608420787;"Updated Site via Maven
+"
+post;dbs-leipzig_gradoop;450b43494fba95ba8a7e03a344e4382b9a05f18b;Tomcat <dbjenkins@wdiserv2.informatik.uni-leipzig.de>;1609025361;"Updated Site via Maven
+"
+post;dbs-leipzig_gradoop;aa5e42c522d87cbe79b84329f5fbf3a089397715;Tomcat <dbjenkins@wdiserv2.informatik.uni-leipzig.de>;1609630339;"Updated Site via Maven
+"
+post;dbs-leipzig_gradoop;e029bd235bdc145d07edfe980bcc6a39c578971a;Tomcat <dbjenkins@wdiserv2.informatik.uni-leipzig.de>;1610235120;"Updated Site via Maven
+"
+post;dbs-leipzig_gradoop;16f6e901896bdcbdebce877b2772c018b4e9159c;Christopher Rost <18614530+ChrizZz110@users.noreply.github.com>;1610459071;Merge branch 'develop' into 1472-temporal-verify
+post;dbs-leipzig_gradoop;270e82230b1eb1de25d6dbc2421e1485fb3ae612;Philip Fritzsche <p-f@users.noreply.github.com>;1610536107;"[#1472] Rename operator call.
+"
+post;dbs-leipzig_gradoop;f425f693b6a348e388aad6e911ed2870162ed65c;Philip Fritzsche <p-f@users.noreply.github.com>;1610638158;"[#1472] Add temporal verify operator. (#1475)
+
+fixes #1472 "
+post;dbs-leipzig_gradoop;7ea249a62fce4f3c3506c02a9e2788b23e6280fa;ChrizZz110 <110@posteo.de>;1610731232;"[#1496] Extended min and max aggregation with date and datetime types
+"
+post;dbs-leipzig_gradoop;07946c579fefd8cdede86c864c87b0a500b4a18d;Tomcat <dbjenkins@wdiserv2.informatik.uni-leipzig.de>;1610839738;"Updated Site via Maven
+"
+post;dbs-leipzig_gradoop;1f3cdf4dcd3805d29f310537feda07698fd91852;Christopher Rost <18614530+ChrizZz110@users.noreply.github.com>;1611073752;Merge branch 'develop' into 1496_date_aggregation
+pre;esri_solutions-geoprocessing-toolbox;4bb8746db618e4a4f6cc3d44ea8ab383c8923e91;Lyle Wright <lwright@esri.com>;1533528558;"Removing the bad layer file
+
+removing the bad layer file for NumberFeatures.
+"
+pre;esri_solutions-geoprocessing-toolbox;87f2681e65d14207dbc70bdc57c522233ca003a0;Lyle Wright <lwright@esri.com>;1533528666;"Changed the name of the lyr file for ArcMap
+"
+pre;esri_solutions-geoprocessing-toolbox;710a1bde533aaadd8e51fbf0752550b58feba4fe;Lyle Wright <lwright@esri.com>;1533528733;"updated code to referance the new file names
+"
+pre;esri_solutions-geoprocessing-toolbox;7a8c50fd1d925f5f3b724d97b751f282f277bc36;Lyle Wright <lwright@esri.com>;1533529215;"updated NumberFeatures lyr
+"
+pre;esri_solutions-geoprocessing-toolbox;4ddb8e604b496a0a622ff56dacc440b62d2aefe0;Lyle Wright <lwright@esri.com>;1533532216;"updates based on syntax error
+"
+pre;esri_solutions-geoprocessing-toolbox;d55455adcb4b814060114b0ccd08b1ac5490abae;Derek Foll <dfoll@esri.com>;1533568209;"Merge pull request #684 from Esri/lw-ggr-nf-symbology-update
+
+Updating layerfiles for number features. "
+pre;esri_solutions-geoprocessing-toolbox;b99e1395d19c904b2980a817a945dbace6794d0e;Derek Foll <dfoll@esri.com>;1533569254;"Merge pull request #683 from Esri/lw-removal-CO
+
+Removal of Clearing Operations from the Repo"
+pre;esri_solutions-geoprocessing-toolbox;2f03b9b1eeaa962eb924658a4af4a8f94b4ab5f3;Lyle Wright <lwright@esri.com>;1533571666;"Update to GRG from Referance Area
+"
+pre;esri_solutions-geoprocessing-toolbox;dbebeb86d05f1fc2f9e4119196384a161b4f3c2e;Derek Foll <dfoll@esri.com>;1533856957;"Merge pull request #685 from Esri/lw-grg-from-reference-area-symbology
+
+Update to GRG from Referance Area"
+pre;esri_solutions-geoprocessing-toolbox;8989d19f15ab298a6e262858efe1558b7846f1d0;C Moore <csmooreacm@acm.org>;1573163263;"Update Toolbox name and add optional param
+"
+post;esri_solutions-geoprocessing-toolbox;689499ba6f72404a14127e9d790cfa364cf1a889;Chris Moore <csmooreacm@acm.org>;1724804931;Update README.md
+pre;janthorbecke_opensource;7e56c3048cfd5ddc235f07ceff9cae260262e3b6;JanThorbecke <janth@xs4all.nl>;1412265113;"Added decompostion for receiver arrays in up- and down going wavefield for acoustic modeling
+"
+pre;janthorbecke_opensource;53ac0bed67f4888bd05a48b3745f4932de2d266d;JanThorbecke <janth@xs4all.nl>;1412837323;"added time interpolation in Vz for up-down decomposition
+"
+pre;janthorbecke_opensource;928234c36c39386c60814ecf6649ae2e25230e66;JanThorbecke <janth@xs4all.nl>;1416322115;"bug fixes
+"
+pre;janthorbecke_opensource;cffcab453f53f1ba9697818506ff11e8faa4a9b3;JanThorbecke <janth@xs4all.nl>;1422536232;"more bug fixes and addes some extra output options in marchenko program
+"
+pre;janthorbecke_opensource;43a4dd3f188508f1b08ad652ff49e9452e493007;JanThorbecke <janth@xs4all.nl>;1426251889;"minor bug fixes and new funtionality added
+"
+pre;janthorbecke_opensource;9479950d5c3cea85a5d53fd5a2bb9f12baa752ff;JanThorbecke <janth@xs4all.nl>;1426260280;"minor bug fix
+"
+pre;janthorbecke_opensource;f4ee2b84663149327fed244a61bb621d8f62a528;JanThorbecke <janth@xs4all.nl>;1433396210;"added receievers on elipse and bug fixes
+"
+pre;janthorbecke_opensource;0db273828c0c39042e53cb1809753e938899b997;JanThorbecke <janth@xs4all.nl>;1436248932;"changes for receicer types, first openmp for migr
+"
+pre;janthorbecke_opensource;7fc510d175e96315619194987fa9f18655153657;JanThorbecke <janth@xs4all.nl>;1440052083;"small updates and changes
+"
+pre;janthorbecke_opensource;e0121109f1c95825ebb6b797ad2c34ff2cd29ea9;JanThorbecke <janth@xs4all.nl>;1440053135;"small updates and changes
+"
+post;janthorbecke_opensource;80c5221f256abbc5f29e4b538bf861787f4e70bf;JanThorbecke <janth@xs4all.nl>;1456406945;"new receiver parameters by Max Holicki, finaly PML's for acoustic scheme build in
+"
+post;janthorbecke_opensource;16fbb89e26b3c794cd45c719744a054e974f815a;JanThorbecke <janth@xs4all.nl>;1457622059;"interpolation of receivers to same time level with int_ settings
+"
+post;janthorbecke_opensource;c0bba823e50c3a028fac59a976592a31d931344b;JanThorbecke <janth@xs4all.nl>;1466056318;"bug fixes moved marchenko program to own directory
+"
+post;janthorbecke_opensource;43e64a591ec3242e9bea4fdd51840af61b15a87c;JanThorbecke <janth@xs4all.nl>;1466061833;"demo Marchenko
+"
+post;janthorbecke_opensource;d4d850495207094dabc667d59f0f2651afa8dfbc;JanThorbecke <janth@xs4all.nl>;1466061962;"demo Marchenko
+"
+post;janthorbecke_opensource;f964799a54676aa90f40a558641e4ea49a51c5fb;Jan Thorbecke <jan@cray.com>;1474184780;"small changes
+"
+post;janthorbecke_opensource;58ee56a8528602c343a4c45936d98d065fa3ea57;Jan Thorbecke <jan@cray.com>;1474976345;"adding missing file
+"
+post;janthorbecke_opensource;b5ded90889bf0588fd2e1d57daea9b895cf0ebad;Jan Thorbecke <jan@cray.com>;1478798595;"before change in variable names
+"
+post;janthorbecke_opensource;e301a26580628bcf659bf5c743955cc3f19143a4;Jan Thorbecke <jan@cray.com>;1483799734;"changes to marchenko in preparation for paper
+"
+post;janthorbecke_opensource;24aaf85173651a2f63c62cf8b36492e69b7a0bd9;Jan Thorbecke <jan@cray.com>;1484899730;"removing unused variables in all code, bug fixes in marchenko to handle different acquisition geometries, re-organizing calls within marchenko algorithm in preperation for software release
+"
+pre;leekgroup_recount-website;ae42cb77c6f577c87487adc21ccabe29275f8614;Leonardo Collado Torres <lcollado@jhsph.edu>;1556052354;"Get ready to deploy app with FANTOM-CAT/recount2 links
+"
+pre;leekgroup_recount-website;9b1e3c54dcb926a857ca8c52aedc02422386ce54;lcolladotor <lcollado@jhsph.edu>;1556568904;"Update FC-RC2 table now that all projects exist and that the RSE's were re-made to match the recount RSE structure
+"
+pre;leekgroup_recount-website;dee29ea3f28fe8597a3db8114f9e364b68102257;Leonardo Collado Torres <lcollado@jhsph.edu>;1556569366;"Ready for deploying the URLs for FC-RC2
+"
+pre;leekgroup_recount-website;5c3d61a4416ae7ef98a929644d241f41616a90ab;Leonardo Collado Torres <lcollado@jhsph.edu>;1556569790;"Add proteomics paper and recount-brain
+"
+pre;leekgroup_recount-website;1da18f1534f3932fe48ddab13ef0c46348632605;Leonardo Collado Torres <lcollado@jhsph.edu>;1556569986;"Fixed a typo
+"
+pre;leekgroup_recount-website;11864616252cf1170dfc70fd2afb5b169b0479c6;Leonardo Collado Torres <lcollado@jhsph.edu>;1556639262;"Fix author list for FC-RC2
+"
+pre;leekgroup_recount-website;d7142e9060f9f56b2f0992478ad25e657467d7bc;Leonardo Collado Torres <lcollado@jhsph.edu>;1559832899;"Update website now that the FANTOM-recount2 pre-print is out
+"
+pre;leekgroup_recount-website;50ee0d9fd8ec925aef2dd03b550ae7ff89994111;Leonardo Collado-Torres <lcollado@jhsph.edu>;1566571104;Update README.md
+pre;leekgroup_recount-website;e2f00a66e12ab4f47eb335c4ebdf200d599b4567;Michael Kluge <michael.kluge@bio.ifi.lmu.de>;1606808244;"let strsplit work for one sample
+"
+pre;leekgroup_recount-website;017f1d990898410d08246476610b4bd8ae1a4fe7;Leonardo Collado-Torres <lcollado@jhsph.edu>;1608248411;"Merge pull request #23 from klugem/master
+
+prep_merge.R fails for input with only one sample"
+post;leekgroup_recount-website;cb26fd651a7799db3d95f27a4bf1833eaad02fab;lcolladotor <lcolladotor@gmail.com>;1693329225;"Add a few files requested by Shannon Ellis
+"
+post;leekgroup_recount-website;bcb8447903dd9ea7beb01e5f4fa48ada2cbbff9e;lcolladotor <lcolladotor@gmail.com>;1693329242;"Merge branch 'master' of github.com:leekgroup/recount-website
+"
+post;leekgroup_recount-website;90dc62c0871541aa5b76e6ec4cc545094d4d83eb;lcolladotor <lcolladotor@gmail.com>;1734104009;"Add an Rproj file
+"
+post;leekgroup_recount-website;723af8ac78dea60bc2e5a7f6780e4f6416a0a028;lcolladotor <lcolladotor@gmail.com>;1734104030;"Part of creating an RStudio project: ignore .Rproj.user
+"
+post;leekgroup_recount-website;8038c713070b22f896d4c92b9ebb1d82277e2b0b;lcolladotor <lcolladotor@gmail.com>;1734104133;"Attempt to address https://github.com/leekgroup/recount-website/issues/25.
+
+Anyways, redeploying the app now enables opening the links on a new window, from where you can press enter, and the download will start. Before it wouldn't let you even click on things using Google Chrome.
+
+I'm not sure what is causing this issue.
+"
+post;leekgroup_recount-website;5118d78bd630f49ececd69015902e0b3c8c570f2;lcolladotor <lcolladotor@gmail.com>;1734104334;"Fix https://github.com/leekgroup/recount-website/issues/25
+
+Use https instead of http for duffel links.
+"
+post;leekgroup_recount-website;30ad2ca0911d7a368458450d148d6186d020b8f0;lcolladotor <lcolladotor@gmail.com>;1734104349;"Merge branch 'master' of github.com:leekgroup/recount-website
+"
+post;leekgroup_recount-website;d8c38aee39f7f16ab878bda9aad3b91dc1840f3b;lcolladotor <lcolladotor@gmail.com>;1734105254;"Remove unused code
+"
+pre;openintrostat_openintro-r-package;38c7dff8d35e2d2db44964b52866ae9fe38673aa;mine-cetinkaya-rundel <mine@stat.duke.edu>;1434932885;"update reference for smoking dataset since old URL is deprecated
+"
+pre;openintrostat_openintro-r-package;01736c1f4149091e9db82e161a8707177bc23569;mine-cetinkaya-rundel <mine@stat.duke.edu>;1434935202;"add gpa_study_hours dataset and its help file
+"
+pre;openintrostat_openintro-r-package;d34e7b08cfeb6c87e8a196be12928a845b120ea7;mine-cetinkaya-rundel <mine@stat.duke.edu>;1434935272;"fix help file for gpa_study_hours
+"
+pre;openintrostat_openintro-r-package;7cfb2eddc1c9152915d3f81b6b0be3c54e70dfbf;OpenIntroOrg <openintro.org@gmail.com>;1434950162;"Adjust normTail function so it is possible to add a normal distribution to an existing plot
+"
+pre;openintrostat_openintro-r-package;7b58abf33f35b3e63035d4271434c0e3d7e58529;Andrew Bray <andrew.bray@gmail.com>;1434968810;"Merge pull request #1 from mine-cetinkaya-rundel/master
+
+update reference for smoking dataset + new data: gpa_study_hours"
+pre;openintrostat_openintro-r-package;bda34844d1750563df334ae31c12339895d3323e;OpenIntroOrg <openintro.org@gmail.com>;1442325794;"Add OIdata package
+"
+pre;openintrostat_openintro-r-package;bdd7f613ca5872607a23479aed1ebe48e3878225;OpenIntroOrg <openintro.org@gmail.com>;1442325979;"Add OIdata to readme file
+"
+pre;openintrostat_openintro-r-package;46ac3563e767cbd75a03b4f23b0f2017b6628c55;Ben Baumer <ben.baumer@gmail.com>;1443726253;"added babies data set
+"
+pre;openintrostat_openintro-r-package;a81dc96e352f0b289061a07cb774783af755ddd6;OpenIntroOrg <openintro.org@gmail.com>;1450748671;"Add a bunch of data sets, fix a few minor items in help files
+"
+pre;openintrostat_openintro-r-package;b46b0380415c051f7cc196655ddc77380648aa24;Mine Cetinkaya-Rundel <mine@stat.duke.edu>;1453775676;"Merge pull request #5 from beanumber/master
+
+added babies data set"
+post;openintrostat_openintro-r-package;8545631c6f62252bfa92db6bb0ad250a634e6b52;David Diez <david@openintro.org>;1503202541;"Add new data sets from OS3 plus one bonus function
+"
+post;openintrostat_openintro-r-package;f1717d693af1bec61a0e6a8d5b7864cd375378ae;David Diez <david@openintro.org>;1503202553;"Merge branch 'master' of https://github.com/OpenIntroOrg/openintro-r-package
+"
+post;openintrostat_openintro-r-package;5b5bda7e3c7ff4001edc97854cf36068cad3d6c1;David Diez <david@openintro.org>;1503202920;"Remove broken quot command
+"
+post;openintrostat_openintro-r-package;5ff159b6b19fa37cfe38585eb66705c0110ff10a;David Diez <david@openintro.org>;1504539243;"Add new data sets
+"
+post;openintrostat_openintro-r-package;78981bc66fa93cbe2c862c017b0709a7a9c469ba;David Diez <david@openintro.org>;1504552336;"Add new data sets
+"
+post;openintrostat_openintro-r-package;13cd4a9bc8b715708e8b3b4d08353ce539111a33;David Diez <david@openintro.org>;1504671825;"Add a couple utility functions for data processing
+"
+post;openintrostat_openintro-r-package;a7edc375cc0776bcd59869609a0eccaba6eaaba2;David Diez <david@openintro.org>;1504671879;"Update version number
+"
+post;openintrostat_openintro-r-package;4f8b0a15b8455ffa12c6633185189a83d28cc4cd;David Diez <david@openintro.org>;1504676604;"Fix 'R CMD check' issues to prepare for submission to CRAN
+"
+post;openintrostat_openintro-r-package;2085a6eb842aa9107b17f315d83875387b0bffe5;David Diez <david@openintro.org>;1504843294;"Final updates to 'openintro' package before posting to CRAN
+"
+post;openintrostat_openintro-r-package;0222ea38f4b57df55951406c96b8b0d77cfd6143;David Diez <david@openintro.org>;1505453409;"Adding more data sets from textbooks. Still must fill out most of the new Rd files.
+"
+pre;pmelchior_scarlet;9684a525a7a511736c41497e0dd288f167dcfb76;charlotteaward <charlotte.ward42@gmail.com>;1676273320;"Removing unnecessary StaticComponent
+"
+pre;pmelchior_scarlet;c69d144fc470af8a77011d4f3bad404fecf3a93c;charlotteaward <charlotte.ward42@gmail.com>;1676496785;"Fixing rotation angle in renderer.py
+"
+pre;pmelchior_scarlet;5b0b5e078b8bc183aaa1453255b73f6baa95cef0;charlotteaward <31629003+charlotteaward@users.noreply.github.com>;1676500423;"Fixing rotation angle in renderer.py (#277)
+
+closes #276"
+pre;pmelchior_scarlet;f3a3336fa92e31465135e32efacc44ca051d29e4;Arun Kannawadi <kj.arun.kj@gmail.com>;1685473423;Avoid next_fast_len from deprecated helper namespace
+pre;pmelchior_scarlet;c7d437171d5089e7d2ee5b080ccc7d90dda398b7;charlotteaward <charlotte.ward42@gmail.com>;1687102983;"New display function
+"
+pre;pmelchior_scarlet;682312aa6cbf496b3cc01f50911ac20e8e1d9a0d;charlotteaward <charlotte.ward42@gmail.com>;1687103210;"Updating display function
+"
+pre;pmelchior_scarlet;211bf51a014b059e57af86dad48d5c1ad6c585df;charlotteaward <charlotte.ward42@gmail.com>;1687104582;"Adding display functions
+"
+pre;pmelchior_scarlet;45187fdccbe8b8c8d7551a84572d7243b24bc8cb;Arun Kannawadi <kj.arun.kj@gmail.com>;1687387097;"Avoid next_fast_len from deprecated helper namespace (#279)
+
+"
+pre;pmelchior_scarlet;84193b513292b7b25b115876782cdb211b9ee0af;charlotteaward <charlotte.ward42@gmail.com>;1687898735;Update display.py
+pre;pmelchior_scarlet;129e9084833d7843a5aefe809cdafeb7f25ead0d;charlotteaward <charlotte.ward42@gmail.com>;1690564369;"Adding wcs reading for Merian images and extent argument to show_sources
+"
+post;pmelchior_scarlet;497e41936a97cced8e79f8c2bdedddf17a91a7ab;Peter Melchior <peter.m.melchior@gmail.com>;1714517761;"removed get_best_fit_spectrum: not robust enough and not needed if set_spectrum_to_match is called
+"
+post;pmelchior_scarlet;52ba78bd8a1bbf07b200296115e132ef8fa52764;Peter Melchior <peter.m.melchior@gmail.com>;1714585297;"robust linear solver when components are degenerate (closes #282)
+"
+post;pmelchior_scarlet;fcd1b29456d78d47532cf6efa1494dc991a658c6;Peter Melchior <peter.m.melchior@gmail.com>;1714586971;"refactored src and obs loops
+"
+post;pmelchior_scarlet;2d1f022e235dd93a796bb391cbf273f97f5a0eca;Peter Melchior <peter.m.melchior@gmail.com>;1714590459;"Init fixes (#284)
+
+* removed get_best_fit_spectrum: not robust enough and not needed if set_spectrum_to_match is called
+
+* robust linear solver when components are degenerate (closes #282)
+
+* refactored src and obs loops"
+post;pmelchior_scarlet;a8248c7614d007dca029123b277c58431efe87bd;Peter Melchior <peter.m.melchior@gmail.com>;1714591578;"closes #254
+"
+post;pmelchior_scarlet;762559ab2a7c407fa682c29cec8ebdc5db37819e;Peter Melchior <peter.m.melchior@gmail.com>;1714591682;"notebook fixes, closes #271
+"
+post;pmelchior_scarlet;f1556cd0592a37dfe2a53f61256959545310bd6b;Peter Melchior <peter.m.melchior@gmail.com>;1714597337;"it's 2024 now..
+"
+post;pmelchior_scarlet;9a9fee1dd9e10bb82daf05604d937125fe6c621c;Peter Melchior <peter.m.melchior@gmail.com>;1714597483;"Merge branch 'master' into docs-fixes
+"
+post;pmelchior_scarlet;93e25472e5f81d43d1d65212920bafaec3b38082;Peter Melchior <peter.m.melchior@gmail.com>;1714597586;"Docs fixes (#285)
+
+* removed get_best_fit_spectrum: not robust enough and not needed if set_spectrum_to_match is called
+
+* robust linear solver when components are degenerate (closes #282)
+
+* refactored src and obs loops
+
+* closes #254
+
+* notebook fixes, closes #271
+
+* it's 2024 now.."
+post;pmelchior_scarlet;116147745dbe6a712678905991af062bb36d2f1d;Peter Melchior <peter.m.melchior@gmail.com>;1714597722;Create sphinx.yml, part of #272
+pre;pytorch_ignite;c359ba2ac33729974a05e0d39312fd64cfe67b97;vfdev <vfdev.5@gmail.com>;1750344062;Add 3.13 to unit-tests.yml
+pre;pytorch_ignite;df3fcdd663e44fb03d2b88c7dde610c6b0c18538;Gonzalo Peña-Castellanos <goanpeca@gmail.com>;1750344267;"Add 313 testing and update build constraints
+"
+pre;pytorch_ignite;531159eac05286ca7a740fbc518b3212d9d8e662;vfdev <vfdev.5@gmail.com>;1750345475;"Add 3.13 to unit-tests.yml (#3432)
+
+"
+pre;pytorch_ignite;4aa0c8877c4132b6e113ffe1d4db47784a8d3bb7;Gonzalo Peña-Castellanos <goanpeca@gmail.com>;1750347999;"Add 313 testing and update build constraints (#3433)
+
+"
+pre;pytorch_ignite;72fede0ad9539214ce612b2d2607f578c5c72fe1;Gonzalo Peña-Castellanos <goanpeca@gmail.com>;1751895628;"Update docker images (#3430)
+
+"
+pre;pytorch_ignite;8cd193ceafcaacc32ae50994aa6bc9fb4c792c18;Gonzalo Peña-Castellanos <goanpeca@gmail.com>;1751932928;"Fix testing issues for older pytorch versions
+"
+pre;pytorch_ignite;509c6cffba4e867ddbda05cc2581ef305bc60b95;Gonzalo Peña-Castellanos <goanpeca@gmail.com>;1751948166;"test
+"
+pre;pytorch_ignite;9c58c6916c2c6b3c3d56a2a10fe3b3042539c9bf;Keerthana Srinivasa Naidu <kee@Mac.attlocal.net>;1753499162;"refactor(amp): migrate from torch.cuda.amp.GradScaler to torch.amp.GradScaler
+"
+pre;pytorch_ignite;dcb35e14267adbdc6a3b3ca4ef12b2ea99b1bb76;Keerthana <keerthisreenivas12@gmail.com>;1753500145;"fix(docs): suppress unresolved reference to torch.amp.grad_scaler.GradScaler
+"
+pre;pytorch_ignite;27a91ebc39d705f0edeb77c2e3685c901d486cd9;Aaraviitkgp <aaravmaheshwari12.24@kgpian.iitkgp.ac.in>;1753513699;"Refactor: switch GradScaler import from torch.cuda.amp to torch.amp
+"
+post;pytorch_ignite;58802ae625f839e5d38435c2f92fe3284d6e8320;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1756806036;"Bump actions/checkout from 4 to 5 in the github-actions group
+
+Bumps the github-actions group with 1 update: [actions/checkout](https://github.com/actions/checkout).
+
+
+Updates `actions/checkout` from 4 to 5
+- [Release notes](https://github.com/actions/checkout/releases)
+- [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/actions/checkout/compare/v4...v5)
+
+---
+updated-dependencies:
+- dependency-name: actions/checkout
+  dependency-version: '5'
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+  dependency-group: github-actions
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>"
+post;pytorch_ignite;339e2a7ddf2b452dc41e8b8ad2ff4050a51b47e1;Gonzalo Peña-Castellanos <goanpeca@gmail.com>;1757000872;"Add typing and style checks as separate workflows
+"
+post;pytorch_ignite;90e0a7e302c8b8adb09eaa4be582beaf8353c0a4;Gonzalo Peña-Castellanos <goanpeca@gmail.com>;1757001745;"Add fixes to doctest and fix incorrect link
+"
+post;pytorch_ignite;1d7f83dfdad0b0496bb9ef1d15e3b08e2a55b430;Gonzalo Peña-Castellanos <goanpeca@gmail.com>;1757001957;"Fix MPS
+"
+post;pytorch_ignite;daf8dedf003072a273960e6c471d74b6a90080f8;Gonzalo Peña-Castellanos <goanpeca@gmail.com>;1757002146;"Fix codecov deprecation warning
+"
+post;pytorch_ignite;400973d452a7d1e66da853811cd15b1fdde77621;Gonzalo Peña-Castellanos <goanpeca@gmail.com>;1757017108;"Add fixes to doctest and fix incorrect link (#3443)
+
+"
+post;pytorch_ignite;ddbd188c10c9e965a696b25dd6740c26af4758d2;Gonzalo Peña-Castellanos <goanpeca@gmail.com>;1757017461;"Fix codecov deprecation warning (#3445)
+
+"
+post;pytorch_ignite;f41b1e3138e1e809ddff6da7ca43ca3d8da4a06b;Gonzalo Peña-Castellanos <goanpeca@gmail.com>;1757081568;"Add typing and style checks as separate workflows (#3442)
+
+"
+post;pytorch_ignite;9e1a6f00f27221016dd44aaa20da2e501cca3936;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1757081709;"Bump the github-actions group across 1 directory with 3 updates
+
+Bumps the github-actions group with 3 updates in the / directory: [actions/checkout](https://github.com/actions/checkout), [actions/setup-python](https://github.com/actions/setup-python) and [actions/labeler](https://github.com/actions/labeler).
+
+
+Updates `actions/checkout` from 4 to 5
+- [Release notes](https://github.com/actions/checkout/releases)
+- [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/actions/checkout/compare/v4...v5)
+
+Updates `actions/setup-python` from 5 to 6
+- [Release notes](https://github.com/actions/setup-python/releases)
+- [Commits](https://github.com/actions/setup-python/compare/v5...v6)
+
+Updates `actions/labeler` from 5 to 6
+- [Release notes](https://github.com/actions/labeler/releases)
+- [Commits](https://github.com/actions/labeler/compare/v5...v6)
+
+---
+updated-dependencies:
+- dependency-name: actions/checkout
+  dependency-version: '5'
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+  dependency-group: github-actions
+- dependency-name: actions/setup-python
+  dependency-version: '6'
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+  dependency-group: github-actions
+- dependency-name: actions/labeler
+  dependency-version: '6'
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+  dependency-group: github-actions
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>"
+post;pytorch_ignite;1fc3214e77d5e946ed70e86cb7610d04565e470f;Gonzalo Peña-Castellanos <goanpeca@gmail.com>;1757084062;"Fix MPS (#3444)
+
+"
+pre;siemens_ros-sharp;d932ebde9844a70add2b16b29d0b7b14d75e1e7b;GnSight <ftyghome@163.com>;1646361288;"Fix the problem that the laser data is mirrored in ROS
+The LaserScanReader now returns reversed range array. This is to fix the problem caused by the inconsistency between ros and unity's coordinate system.
+"
+pre;siemens_ros-sharp;579d2e0c51f149984504305be1060dc77875a738;John Clema <john.clema@gmail.com>;1652159315;"chore: Update name to com.siemens.ros-sharp
+
+Currently all unity based extensions are in a folder called
+Unity3D. This updates it to be named com.siemens.ros-sharp.
+
+The purpose of this is so that we might be able to make an openupm
+or npmjs package out of this that can be regularly published. This
+avoids users of the Unity based extensions adding them in as
+Assets, instead allowing them to add the extensions as an extenal
+package. (see https://openupm.com/docs/ for more)
+"
+pre;siemens_ros-sharp;616d0e192881cb0babb294cf61ba7898ae44f1af;John Clema <john.clema@gmail.com>;1652159497;"chore: Add package.json
+
+This adds a package json, so that we might be able to push this to
+openupm as a distinct package.
+"
+pre;siemens_ros-sharp;8548ed3086212d25faba574d6846bb70cd8881ca;John Clema <john.clema@gmail.com>;1652857089;"Update for openupm (#427)
+
+* chore: Update name to com.siemens.ros-sharp
+
+Currently all unity based extensions are in a folder called
+Unity3D. This updates it to be named com.siemens.ros-sharp.
+
+The purpose of this is so that we might be able to make an openupm
+or npmjs package out of this that can be regularly published. This
+avoids users of the Unity based extensions adding them in as
+Assets, instead allowing them to add the extensions as an extenal
+package. (see https://openupm.com/docs/ for more)
+
+* chore: Add package.json
+
+This adds a package json, so that we might be able to push this to
+openupm as a distinct package."
+pre;siemens_ros-sharp;8d08dcf0d47a8d0b6fc69ae5ed95a8595aef4aa8;John Clema <john.clema@gmail.com>;1653377690;"Update package.json
+
+Update the package.json with a new verison of 1.7.1, so that openupm can make a new build."
+pre;siemens_ros-sharp;4cc18b3e3558debd16e6a29240a23bfa1964b8bf;John Clema <john.clema@gmail.com>;1653378166;"Update package.json (#430)
+
+Update the package.json with a new verison of 1.7.1, so that openupm can make a new build."
+pre;siemens_ros-sharp;5fd06ecf217d2609fd69227280e0cca5ce9b2192;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1655912902;"Bump Newtonsoft.Json from 12.0.3 to 13.0.1 in /Libraries/RosBridgeClient
+
+Bumps [Newtonsoft.Json](https://github.com/JamesNK/Newtonsoft.Json) from 12.0.3 to 13.0.1.
+- [Release notes](https://github.com/JamesNK/Newtonsoft.Json/releases)
+- [Commits](https://github.com/JamesNK/Newtonsoft.Json/compare/12.0.3...13.0.1)
+
+---
+updated-dependencies:
+- dependency-name: Newtonsoft.Json
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>"
+pre;siemens_ros-sharp;ffb02209f807bc192778bcecf49c1f8452b6a5fa;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1655916177;"Bump Newtonsoft.Json from 12.0.3 to 13.0.1 in /Libraries/RosBridgeClient (#432)
+
+Bumps [Newtonsoft.Json](https://github.com/JamesNK/Newtonsoft.Json) from 12.0.3 to 13.0.1.
+- [Release notes](https://github.com/JamesNK/Newtonsoft.Json/releases)
+- [Commits](https://github.com/JamesNK/Newtonsoft.Json/compare/12.0.3...13.0.1)
+
+---
+updated-dependencies:
+- dependency-name: Newtonsoft.Json
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pre;siemens_ros-sharp;fb848efafcd47b99578ad8fb143c330917db650a;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1655916200;"Bump Newtonsoft.Json in /Libraries/RosBridgeClientTest
+
+Bumps [Newtonsoft.Json](https://github.com/JamesNK/Newtonsoft.Json) from 12.0.3 to 13.0.1.
+- [Release notes](https://github.com/JamesNK/Newtonsoft.Json/releases)
+- [Commits](https://github.com/JamesNK/Newtonsoft.Json/compare/12.0.3...13.0.1)
+
+---
+updated-dependencies:
+- dependency-name: Newtonsoft.Json
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>"
+pre;siemens_ros-sharp;02388ba9321bb73af375fdcb01352786a44a3e85;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1655916241;"Bump Newtonsoft.Json in /Libraries/RosBridgeClientTest (#433)
+
+Bumps [Newtonsoft.Json](https://github.com/JamesNK/Newtonsoft.Json) from 12.0.3 to 13.0.1.
+- [Release notes](https://github.com/JamesNK/Newtonsoft.Json/releases)
+- [Commits](https://github.com/JamesNK/Newtonsoft.Json/compare/12.0.3...13.0.1)
+
+---
+updated-dependencies:
+- dependency-name: Newtonsoft.Json
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+post;siemens_ros-sharp;f8fd07131bf71c8a63ce447ac0dedeeaa2e94946;memrecakal <m.emrecakal@siemens.com>;1705057856;"fix(Client|ClientTest): Updated Newtonsoft.Json
+"
+post;siemens_ros-sharp;5c6fa465286025550541a382e8b4b4dfbddb7abf;memrecakal <m.emrecakal@siemens.com>;1705060799;"fix(Client|ClientText): Updated System.Text.Json
+"
+post;siemens_ros-sharp;c3b30130a69ec259343a2bb254c40157b0358ad2;memrecakal <m.emrecakal@siemens.com>;1705061976;"fix(Client): Removed unnecessary Newtonsoft usage
+"
+post;siemens_ros-sharp;835738adcbb101a96af703ae59d8cbdd91413673;memrecakal <m.emrecakal@siemens.com>;1705065570;"fix(SetCameraInfo): Switched to System.Json.Text
+"
+post;siemens_ros-sharp;64da1edd9e32bdb63c1a2192ab9efb4192e15837;memrecakal <m.emrecakal@siemens.com>;1705066051;"fix(UrdfTransferToRos): Switched to System.Text.Json
+"
+post;siemens_ros-sharp;3bdfae4632fdd9c30a99ffb8868a082a12a47f9f;memrecakal <m.emrecakal@siemens.com>;1705067657;"fix(RosCommunicationTests): Switched to System.Text.Json
+"
+post;siemens_ros-sharp;f42c6d95f684e5c6f987dfb35767b34da342b578;Mehmet Emre Çakal <42466646+memrecakal@users.noreply.github.com>;1705068659;fix(.gitignore): Ignore VS cache/options directory
+post;siemens_ros-sharp;8330f5b433da22fff028dd1f355233b2f3e008e7;Mehmet Emre Çakal <42466646+memrecakal@users.noreply.github.com>;1705075973;"Update dependencies Newtonsoft.Json (13.0.3) and System.Text.Json (8.0.0) (#451)
+
+* fix(Client|ClientTest): Updated Newtonsoft.Json
+
+* fix(Client|ClientText): Updated System.Text.Json
+
+* fix(Client): Removed unnecessary Newtonsoft usage
+
+* fix(SetCameraInfo): Switched to System.Json.Text
+
+* fix(UrdfTransferToRos): Switched to System.Text.Json
+
+* fix(RosCommunicationTests): Switched to System.Text.Json
+
+* fix(.gitignore): Ignore VS cache/options directory
+
+---------
+
+Co-authored-by: memrecakal <emre.cakal@siemens.com>"
+post;siemens_ros-sharp;b4e3c97c12e17192b15ea49f9eb1c3917461781d;Mehmet Emre Cakal <emre.cakal@siemens.com>;1705494220;"fix(RosSocket|Seralizers|MessageTypes|UrdfTransfer): Urdf transfer now uses the 'selected' serializer class
+"
+post;siemens_ros-sharp;9c270f1e415ed71475c4189eafae1a2aa09aca7f;Mehmet Emre Cakal <emre.cakal@siemens.com>;1705498355;"fix(RosSocket): Remove Bson serializer support
+"
+pre;tlverse_hal9001;6d76fc941cce13d99600774991d010795ced01ca;Nima Hejazi <nh@nimahejazi.org>;1523566153;"try fixing check
+"
+pre;tlverse_hal9001;c66a32de96a8a576892f3dc3660d165aa8f99eec;Nima Hejazi <nh@nimahejazi.org>;1523566526;"fix remotes
+"
+pre;tlverse_hal9001;212b8e339011381bd581509a0bb03d20637ede30;Jeremy Coyle <jeremyrcoyle@gmail.com>;1523569858;"Merge pull request #23 from jeremyrcoyle/cleanup-lassi
+
+Cleanup lassi"
+pre;tlverse_hal9001;43c6d2046826e1e40683e04c17974a2a5bd8272e;Benkeser <benkeser@emory.edu>;1525464198;"return lasso fits upon request
+"
+pre;tlverse_hal9001;7644b186e08c5d3fe27ff022dfbb2db74dcfed2f;Benkeser <benkeser@emory.edu>;1525464651;"fix name
+"
+pre;tlverse_hal9001;085389d9966f730ff69c438b4fd2a815831463c3;Jeremy Coyle <jeremyrcoyle@gmail.com>;1525467442;"Merge pull request #29 from benkeser/master
+
+return lasso fits upon request"
+pre;tlverse_hal9001;c48d9dda444d1d682827627a9e6c91be9eb4021c;Nima Hejazi <nh@nimahejazi.org>;1527609230;"fix SL wrapper bug (passing newdata); update docs
+"
+pre;tlverse_hal9001;cdde8640e1b5034182e0c6f344e913877b4ef657;Nima Hejazi <nh@nimahejazi.org>;1527609631;"refinements for package checking
+"
+pre;tlverse_hal9001;766a33b0c3475d09aaac6a3f7e8902958879b113;Nima Hejazi <nh@nimahejazi.org>;1527625231;"bump version + update pkgdown site
+"
+pre;tlverse_hal9001;99d8ac2593fd6fb81adbca174d2bcfeda8d343d0;Nima Hejazi <nhejazi@berkeley.edu>;1527628050;"Merge pull request #31 from jeremyrcoyle/sl-wrapper-bug
+
+Resolve predictions bug with classical SuperLearner"
+post;tlverse_hal9001;284e72f978a12178fc713e7a8187951644b711d3;Wilson Cai <wcai@berkeley.edu>;1539030591;"use specify basis_map
+"
+post;tlverse_hal9001;36e1c734bdc61ef8922c2fd7102b2e599fb198a3;Jeremy Coyle <jeremyrcoyle@gmail.com>;1539194860;"Merge pull request #35 from wilsoncai1992/ohal
+
+use specify basis_list"
+post;tlverse_hal9001;4cff8b9b1600799ceb8a5c6474cf43dba4818975;Nima Hejazi <nh@nimahejazi.org>;1539201843;"fix docs
+"
+post;tlverse_hal9001;57fa7ecd202e3a094b1aee66bdb0754699d62de0;Nima Hejazi <nh@nimahejazi.org>;1539202149;"add PR recipe to makefile
+"
+post;tlverse_hal9001;06ed09d451d1ab6b07292f231aa134555fc6edf3;Nima Hejazi <nh@nimahejazi.org>;1539204036;"update docs and pkgdown
+"
+post;tlverse_hal9001;39b80e8a4771fe9a74ae30035fb9a52a049bdc9d;Nima Hejazi <nh@nimahejazi.org>;1539204283;"remove lingering .DS_Store and jupyter notebook
+"
+post;tlverse_hal9001;03e06078a500cedcd0417454947670eeb4654e58;Nima Hejazi <nh@nimahejazi.org>;1539204529;"fix links + add new orcids
+"
+post;tlverse_hal9001;a6aa51918e962bb0b9de5c97c15287f62f49293b;Nima Hejazi <nh@nimahejazi.org>;1539204855;"update sites
+"
+post;tlverse_hal9001;c4a573807a040ddbb40d6e17d29bc9b7e42c3d33;Nima Hejazi <nhejazi@berkeley.edu>;1539210665;"Merge pull request #36 from tlverse/fix-docs
+
+fix docs"
+post;tlverse_hal9001;c6fee176a402f32057e99b573390021766dd141e;Nima Hejazi <nh@nimahejazi.org>;1539706632;"initialize args for basis reduction
+"

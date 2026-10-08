@@ -1,11 +1,11 @@
-project;#commits;#authors;From;To;#stars;#forks;LastGHCommitDate;LongestGapStart (YYYY-MM), ;LongestGapEnd (YYYY-MM),;LongestGapLength;NumCommitsAfterLastGap;pattern;NumberOfGapsInTimeline
-pmelchior_scarlet;1250;7;1586978476;1588732939;58;20;2024/08/14;2023-06;2024-02;8;2;declining;10
-tlverse_hal9001;550;7;1509834643;1732046418;49;15;2024/11/19;2018-05;2018-09;4;20;stable;21
-pytorch_ignite;2035;270;1617102107;1617102107;4800;726;2026/09/09;2025-08;2025-08;1;51;increasing;3
-siemens_ros-sharp;502;34;1506088289;1560504272;1200;408;2026/09/09;2022-07;2023-12;18;26;declining;8
-esri_solutions-geoprocessing-toolbox;1279;25;1444780823;1505425474;135;67;2024/08/19;2019-12;2024-07;55;1;declining;8
-leekgroup_recount-website;410;4;1464815126;1485298162;12;5;2024/12/13;2021-01;2023-07;30;2;declining;9
-openintrostat_openintro-r-package;470;13;1619358267;1645580387;256;182;2026/08/19;2016-02;2017-07;18;3;declining;26
-dbs-leipzig_gradoop;1228;34;1579614236;1642413615;251;85;2024/11/12;2020-11;2020-11;1;2;declining;4
-janthorbecke_opensource;912;6;1551080191;1553528254;177;67;2026/09/17;2015-09;2016-01;5;1;declining;20
-brandondube_prysm;1985;5;1636834063;1636834063;360;61;2026/07/25;2025-07;2026-01;7;17;declining;9
+project;#commits;#authors;From;To;#stars;#forks;LastGHCommitDate;LongestGapStart (YYYY-MM), ;LongestGapEnd (YYYY-MM),;LongestGapLength;NumCommitsAfterLastGap;pattern;NumberOfGapsInTimeline;BeforeThemes;AfterThemes;HypothesizedGapReason;HasRecovered;WhyRecovered;WhoRecovered;Currentstatus;RecentThemes;Notes
+pmelchior_scarlet;1250;7;1586978476;1588732939;58;20;2024/08/14;2023-06;2024-02;8;2;declining;10;Feature development:Dependency updates;Feature development:Bug fixes;;;;;;;
+tlverse_hal9001;550;7;1509834643;1732046418;49;15;2024/11/19;2018-05;2018-09;4;20;stable;21;Bug fixes:Documentation updates;Feature development:Documentation updates;;;;;;;
+pytorch_ignite;2035;270;1617102107;1617102107;4800;726;2026/09/09;2025-08;2025-08;1;51;increasing;3;Feature development:Other(testing commits);Bug fixes:authomated bot contributions;;;;;;;
+siemens_ros-sharp;502;34;1506088289;1560504272;1200;408;2026/09/09;2022-07;2023-12;18;26;declining;8;Automated bot contributions:Other(packagee commits);Bug fixes:Dependency updates;;;;;;;
+esri_solutions-geoprocessing-toolbox;1279;25;1444780823;1505425474;135;67;2024/08/19;2019-12;2024-07;55;1;declining;8;Feature development:Other(upates and PR merges);Documentation updates:Other(Update README commit);;;;;;;
+leekgroup_recount-website;410;4;1464815126;1485298162;12;5;2024/12/13;2021-01;2023-07;30;2;declining;9;Documentation updates:Release;Other(project files and merges):Bug fixes;;;;;;;
+openintrostat_openintro-r-package;470;13;1619358267;1645580387;256;182;2026/08/19;2016-02;2017-07;18;3;declining;26;Feature development:Documentation updates;Feature development:Release;;;;;;;
+dbs-leipzig_gradoop;1228;34;1579614236;1642413615;251;85;2024/11/12;2020-11;2020-11;1;2;declining;4;Feature development:Automated bot contributions;Feature development:Automated bot contributions;;;;;;;
+janthorbecke_opensource;912;6;1551080191;1553528254;177;67;2026/09/17;2015-09;2016-01;5;1;declining;20;Feature development:Bug fixes;Feature development:Other(small changes, adding missing file commits);;;;;;;
+brandondube_prysm;1985;5;1636834063;1636834063;360;61;2026/07/25;2025-07;2026-01;7;17;declining;9;Documentation updates:Feature development;Feature development:Dependency updates;;;;;;;
